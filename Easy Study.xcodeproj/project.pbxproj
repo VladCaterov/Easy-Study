@@ -14,6 +14,7 @@
 		E307A6852947BE5A00B8AB8B /* Easy_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307A6842947BE5A00B8AB8B /* Easy_StudyTests.swift */; };
 		E307A68F2947BE5A00B8AB8B /* Easy_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307A68E2947BE5A00B8AB8B /* Easy_StudyUITests.swift */; };
 		E307A6912947BE5A00B8AB8B /* Easy_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307A6902947BE5A00B8AB8B /* Easy_StudyUITestsLaunchTests.swift */; };
+		E307A69F2947C20500B8AB8B /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307A69E2947C20500B8AB8B /* login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E307A68A2947BE5A00B8AB8B /* Easy StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy StudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E307A68E2947BE5A00B8AB8B /* Easy_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_StudyUITests.swift; sourceTree = "<group>"; };
 		E307A6902947BE5A00B8AB8B /* Easy_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E307A69E2947C20500B8AB8B /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		E307A6722947BE5900B8AB8B /* Easy Study */ = {
 			isa = PBXGroup;
 			children = (
+				E307A69D2947C1C300B8AB8B /* authentication */,
 				E307A6732947BE5900B8AB8B /* Easy_StudyApp.swift */,
 				E307A6752947BE5900B8AB8B /* ContentView.swift */,
 				E307A6772947BE5A00B8AB8B /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				E307A6902947BE5A00B8AB8B /* Easy_StudyUITestsLaunchTests.swift */,
 			);
 			path = "Easy StudyUITests";
+			sourceTree = "<group>";
+		};
+		E307A69D2947C1C300B8AB8B /* authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E307A69E2947C20500B8AB8B /* login.swift */,
+			);
+			path = authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E307A6762947BE5900B8AB8B /* ContentView.swift in Sources */,
+				E307A69F2947C20500B8AB8B /* login.swift in Sources */,
 				E307A6742947BE5900B8AB8B /* Easy_StudyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +437,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +467,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
